@@ -15,15 +15,15 @@
 
 ## Architecture
 
-This section will cover the architecture of Metalhead Robot. To build the architecture diagrams, we used the C4 model, as described and documented in: [C4 Model](https://c4model.com/#CoreDiagrams)
+This section will cover the architecture of Metalhead Robot. To build the architecture diagrams, we used the C4 model, as described and documented in [C4 Model official documentation](https://c4model.com/#CoreDiagrams).
 
 ### C1 - Context Diagram
 
-TBD.
+![image](./C1.jpeg)
 
 ### C2 - Container Diagram
 
-![image](https://github.com/Metalhead-Robot/metalhead-robot-wiki/assets/38140171/9fb83f4d-ef39-402b-816d-81a661497234)
+![image](./C2.jpeg)
 
 ### C3 - Components Diagram
 
@@ -31,7 +31,7 @@ TBD.
 
 ### C4 - Code Diagram
 
-TBD.
+For convenience, please request access to the repository you're looking to check the code diagram.
 
 ### Deploy Diagram
 
