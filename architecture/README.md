@@ -2,7 +2,8 @@
 
 | [Home](../README.md) | Architecture | [Git](../git/README.md) | [Configuration](../configuration/README.md) | [Mockups](../mockups/README.md) | [Database](../database/README.md) |  [Project Management](../project-management/README.md) | [Quality](../quality/README.md) |
 | :------------------: | :---------------------------------------: | :---------------------: | :-----------------------------------------: | :-----------------------------: | :-------------------------------: |  :---------------------------------------------------: | :-----------------------------: |
-- [Metalhead Robot Wiki](#metalhead-robot-wiki---architecture)
+
+- [Metalhead Robot Wiki - Architecture](#metalhead-robot-wiki---architecture)
   - [Architecture](#architecture)
     - [C1 - Context Diagram](#c1---context-diagram)
     - [C2 - Container Diagram](#c2---container-diagram)
