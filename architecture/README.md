@@ -1,8 +1,7 @@
 # Metalhead Robot Wiki - Architecture
 
-| [Home](../README.md) | Architecture | Git | Configuration | Mockups | Database | Setup | Project Management | Quality |
+| [Home](../README.md) | Architecture | [Git](../git/README.md) | [Configuration](../configuration/README.md) | [Mockups](../mockups/README.md) | [Database](../database/README.md) | [Setup](../setup/README.md) | [Project Management](../project-management/README.md) | [Quality](../quality/README.md) |
 | :--: | :----------: | :-: | :-----------: | :-----: | :------: | :---: | :----------------: | :-----: |
-
 - [Metalhead Robot Wiki](#metalhead-robot-wiki---architecture)
   - [Architecture](#architecture)
     - [C1 - Context Diagram](#c1---context-diagram)
