@@ -1,7 +1,18 @@
-# Metalhead Robot Wiki
+# Metalhead Robot Wiki - Architecture
 
 | [Home](../README.md) | Architecture | Git | Configuration | Mockups | Database | Setup | Project Management | Quality |
 | :--: | :----------: | :-: | :-----------: | :-----: | :------: | :---: | :----------------: | :-----: |
+
+- [Metalhead Robot Wiki](#metalhead-robot-wiki---architecture)
+  - [Architecture](#architecture)
+    - [C1 - Context Diagram](#c1---context-diagram)
+    - [C2 - Container Diagram](#c2---container-diagram)
+    - [C3 - Components Diagram](#c3---components-diagram)
+    - [C4 - Code Diagram](#c4---code-diagram)
+    - [Deploy Diagram](#deploy-diagram)
+    - [Technologies Definition](#technologies-definition)
+    - [Rest API Routes](#rest-api-routes)
+    - [DB Collection Structure](#db-collection-structure)
 
 ## Architecture
 
