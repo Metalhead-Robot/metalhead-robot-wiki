@@ -5,43 +5,45 @@
 
 - [Metalhead Robot Wiki - Configuration](#metalhead-robot-wiki---configuration)
   - [Configuration](#configuration)
-    - [UI](#ui)
+    - [UI (Local)](#ui-local)
     - [Rest API](#rest-api)
     - [Scavenger](#scavenger)
     - [Database](#database)
 
 ## Configuration
 
-This document only contains the steps for Windows environment.
+This document contains the steps for **Windows** environment only!
 
 Start by setting up the development environment. To run any project, the tools below needs to be installed.
 
-- Node.js - To run Javascript code on your machine. Download the Windows Installer from the [official website](https://nodejs.org/en/download/current).
-- Git - To have source code versioning support with Git. Download the Git SCM from the [official website](https://git-scm.com/downloads).
-- Visual Studio Code - Suggested IDE, but you can use one of your preference. Download the Windows Installer from the [official website](https://code.visualstudio.com/download).
+- **Node.js** - To run Javascript code on your machine. Download the Windows Installer from the [official website](https://nodejs.org/en/download/current).
+- **Git** - To have source code versioning support with Git. Download the Git SCM from the [official website](https://git-scm.com/downloads).
+- **Visual Studio Code** - Suggested IDE, but you can use one of your preference. Download the Windows Installer from the [official website](https://code.visualstudio.com/download). Find below some useful extensions.
+  - [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+  - [Tailwind CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
-### UI
+### UI (Local)
 
 UI is a Next.js project. In order to have your project running, start by cloning the repository.
 
 ```bash
-$ git clone <metalhead_robot_repository_url>
+git clone <metalhead_robot_repository_url>
 ```
 
 Go to the cloned repository and install all dependencies.
 
 ```bash
-$ cd metalhead-robot-ui
-$ npm install
+cd metalhead-robot-ui
+npm install
 ```
 
 You can now build, run and test the UI project.
 
 ```bash
-$ npm run build
-$ npm run dev
-$ npm test
-$ npm test:e2e
+npm run build
+npm run dev
+npm test
+npm test:e2e
 ```
 
 ### Rest API
