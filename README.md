@@ -25,10 +25,10 @@
 
 ### High Level Summary of the Project
 
-- Display upcoming (future) releases
+- Landing page with vision and goals of MHR
 - Display new releases, sorted by most recent
-- Filter releases by genre, country and type
+- Display upcoming (future) releases
+- Link albums to music platforms
+- Filter releases by genre, country, type and release date
 - Listen to album preview
-- Add albums to the user's library
-- Display the user's library
-- Recommend albums based on the user's library
+- Share music on social media
