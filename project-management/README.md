@@ -9,7 +9,8 @@
     - [User Stories](#user-stories)
       - [Initial Scope](#initial-scope)
       - [Nice to Have](#nice-to-have)
-      - [US that should be Acceptance Criteria](#us-that-should-be-acceptance-criteria)
+      - [US that actually are Acceptance Criteria](#us-that-actually-are-acceptance-criteria)
+    - [Work Breakdown Structure](#work-breakdown-structure)
     - [Working with user stories](#working-with-user-stories)
       - [User Stories Life-Cycle](#user-stories-life-cycle)
       - [How to write user stories](#how-to-write-user-stories)
@@ -22,7 +23,7 @@ Consider the table below to identify the meaning of each status:
 | Figure | Meaning                        |
 | :----: | :----------------------------- |
 |   ✅    | User Story accepted            |
-|   ❌    | User Story **not** accepted    |
+|   ❌    | User Story not accepted        |
 |   ⚠️    | User Story with technical debt |
 |   ⏳    | User Story in progress         |
 |   😴    | User Story not started         |
@@ -31,20 +32,22 @@ Consider the table below to identify the meaning of each status:
 
 Consider the table below to identify the status of the project:
 
-| Description                   | Status |
-| :---------------------------- | :----: |
-| Requirements Elicitation      |   ✅    |
-| User Stories Definition       |   ✅    |
-| Creation of Mockups           |   ⏳    |
-| Initial Setup - Design System |   ⏳    |
-| Initial Setup - UI            |   ✅    |
-| Initial Setup - API           |   😴    |
-| Initial Setup - DB            |   ⏳    |
-| Initial Setup - Scavenger     |   ✅    |
+| Description                   | Accepted | Not Accepted | In Progress | Technical Debit | Not Started |
+| :---------------------------- | :------: | :----------: | :---------: | :-------------: | :---------: |
+| Requirements Elicitation      |    ✅     |              |             |                 |             |
+| User Stories Definition       |    ✅     |              |             |                 |             |
+| Creation of Mockups           |          |              |      ⏳      |                 |             |
+| Initial Setup - Design System |          |              |      ⏳      |                 |             |
+| Initial Setup - UI            |    ✅     |              |             |                 |             |
+| Initial Setup - API           |          |              |             |                 |      😴      |
+| Initial Setup - DB            |          |              |      ⏳      |                 |             |
+| Initial Setup - Scavenger     |    ✅     |              |             |                 |             |
 
 ### User Stories
 
 #### Initial Scope
+
+![image](./user%20stories%20-%20initial%20scope.png)
 
 |   #   | User Story                                                                                                                                                                     | Category | Accepted | Not Accepted | Technical Debt | In Progress |
 | :---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :------: | :----------: | :------------: | :---------: |
@@ -73,17 +76,18 @@ Consider the table below to identify the status of the project:
 
 User stories considered nice-to-have means that they are **not** included in the initial scope of the project.
 
-- *As a user, I want to see a visual representation of the metrics about the latest heavy metal releases so I can see the data in an easy-to-understand format.*
-- *As a user, I want to be able to view a list of videos of metal from Youtube*
+![image](./user%20stories%20-%20nice%20to%20have.png)
+
+- *As a user, I want to be able to listen to a heavy metal radio, so I can listen and discover new music.*
+- *As a user, I want to be able to select the preferences of what is playing on the radio, so I can listen and discover new music I like.*
+- *As a user, I want to see a visual representation of metrics about the releases (e.g. releases by day/week/month) , so I can understand the heavy metal scene in an easy-to-understand format.*
+- *As a user, I want to be able to view a list of music videos from Youtube, so I can listen the music while watching the clip.*
 - *As a user, I want to be able to view a list of metal magazines and websites, so that I can stay up-to-date with the latest news and reviews.*
-- *As a user, I want to filter the latest heavy metal releases by genre so I can find the type of music I like.*
-- *As a user, I want to filter the latest heavy metal releases by country so I can find music from my favorite countries.*
-- *As a user, I want to filter the latest heavy metal releases by date range so I can find the music I want.*
 - *As a user, I want to be able to rate albums so I can provide feedback on the music I listen to.*
 - *As a user, I want to be able to view the average rating and number of reviews for a metal release, so that I can get an idea of its popularity and quality.*
-- *As a user, I want to be able to view the biography of the band that released the music, so I can learn more about the band.*
 - *As a user, I want to be able to bookmark specific albums so I can easily find them again in the future.*
-- *As a user, I want to be able to view my favorite releases, so I can quickly access them.*
+- *As a user, I want to be able to view my favorite releases, so I can quickly access my bookmarks.*
+- *As a user, I want to be able to view the biography of the band that released the music, so I can learn more about the band.*
 - *As a user, I want to be able to view the metal record label(s) behind the release, so that I can learn more about the companies behind the music.*
 - *As a user, I want to be able to view a list of metal podcasts, so that I can listen to discussions and interviews about the genre.*
 - *As a user, I want to be able to search for specific albums or artists so I can quickly find what I'm looking for.*
@@ -92,10 +96,14 @@ User stories considered nice-to-have means that they are **not** included in the
 - *As a user, I want to view a breakdown of the latest releases by type (such as single, EP, full-length, etc), so I can see the popularity of different release types*
 - *As a user, I want to be able to see the lyrics of the songs of a release, so I can sing along while I listen to the music.*
 
-#### US that should be Acceptance Criteria
+#### US that actually are Acceptance Criteria
 
 - As a user, I want to be able to sort the list of metal releases by release date, so that I can view the newest releases first.
 - As a user, I want to be able to view a message when there is no data to be displayed, so I can understand the state of the application.
+
+### Work Breakdown Structure
+
+![image](./wbs.png)
 
 ### Working with user stories
 

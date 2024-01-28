@@ -7,7 +7,13 @@
   - [Architecture](#architecture)
     - [C1 - Context Diagram](#c1---context-diagram)
     - [C2 - Container Diagram](#c2---container-diagram)
+      - [Overview](#overview)
+      - [Scavenger - Microservices](#scavenger---microservices)
+      - [Scavenger - Monolithic](#scavenger---monolithic)
     - [C3 - Components Diagram](#c3---components-diagram)
+      - [UI](#ui)
+      - [API](#api)
+      - [Scavenger](#scavenger)
     - [C4 - Code Diagram](#c4---code-diagram)
     - [Deploy Diagram](#deploy-diagram)
     - [Technologies Definition](#technologies-definition)
@@ -24,9 +30,29 @@ This section will cover the architecture of Metalhead Robot. To build the archit
 
 ### C2 - Container Diagram
 
+#### Overview
+
 ![image](./C2.jpeg)
 
+#### Scavenger - Microservices
+
+![image](./C2%20-%20Scavenger%20-%20Microservices.png)
+
+#### Scavenger - Monolithic
+
+![image](./C2%20-%20Scavenger%20-%20Monolithic.png)
+
 ### C3 - Components Diagram
+
+#### UI
+
+![image](./C3%20-%20UI.png)
+
+#### API
+
+TBD.
+
+#### Scavenger
 
 TBD.
 
