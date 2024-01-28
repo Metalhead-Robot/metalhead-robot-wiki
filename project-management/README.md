@@ -5,6 +5,9 @@
 
 - [Metalhead Robot Wiki - Project Management](#metalhead-robot-wiki---project-management)
   - [Project Management](#project-management)
+    - [Team Organization](#team-organization)
+    - [Accountability Matrix](#accountability-matrix)
+    - [Communication Plan](#communication-plan)
     - [Project Warm-up](#project-warm-up)
     - [User Stories](#user-stories)
       - [Initial Scope](#initial-scope)
@@ -18,6 +21,38 @@
 
 ## Project Management
 
+### Team Organization
+
+![image](./team-organization.png)
+
+### Accountability Matrix
+
+| Activity                 | Arthur Ferreira | Arthur L. A. Silva | Marco Goedert |
+| :----------------------- | :-------------: | :----------------: | :-----------: |
+| Manage the Wiki          |        A        |         A          |       A       |
+| Team Organization        |        C        |         C          |       A       |
+| Define sprint milestones |        I        |         I          |       A       |
+| Division of Tasks        |        C        |         C          |       A       |
+| Software Development     |        A        |         A          |       A       |
+| Code Review              |        A        |         A          |       C       |
+| Test Execution           |        A        |         A          |       C       |
+| Deployment               |        I        |         I          |       A       |
+
+- A - Accountable: Who is assigned to work on the activity.
+- C - Consulted: Who should be consulted and participate in the activity.
+- I - Informed: Who should be informed about the progress of the activity.
+
+### Communication Plan
+
+|                 Event                 | Description                                                                                                                                                      | Responsible | Involved |   Frequency   |  Duration  |
+| :-----------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :------: | :-----------: | :--------: |
+|  Task status & Primary communication  | **Discord.** Means of distance communication, which can be done synchronously or asynchronously, enabling the team to work together remotely.                    |     All     |   All    |     Daily     |    N/A     |
+| Task status & Secondary communication | **WhatsApp.** Used for quick messages or in cases where access to the main communication is not possible.                                                        |     All     |   All    |     Daily     |    N/A     |
+|          "Daily" Status Call          | Quick meeting to give the status of what has been done individually since the last meeting. Also used to inform possible impediments in tasks or upcoming tasks. |    Marco    |   All    |  2x per week  | 15 minutes |
+|             Retrospective             | Used to reflect on the last sprint, inform what was good and what can be improved for the next sprints.                                                          |    Marco    |   All    | 1x per sprint |   1 hour   |
+
+### Project Warm-up
+
 Consider the table below to identify the meaning of each status:
 
 | Figure | Meaning                        |
@@ -27,8 +62,6 @@ Consider the table below to identify the meaning of each status:
 |   ⚠️    | User Story with technical debt |
 |   ⏳    | User Story in progress         |
 |   😴    | User Story not started         |
-
-### Project Warm-up
 
 Consider the table below to identify the status of the project:
 
